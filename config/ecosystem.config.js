@@ -2,7 +2,7 @@ module.exports = {
     apps: [
       {
         name: 'pizza-app',
-        script: './src/index.js'
+        script: './src/server.js'
       }
     ]
   };

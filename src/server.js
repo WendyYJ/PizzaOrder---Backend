@@ -7,7 +7,7 @@ const morgan = require('morgan');
 const cors = require('cors');
 
 const bodyPaser = require('body-parser');
-const port = process.env.port;
+const port = process.env.port || 3000;
 const routes = require("./routes");
 const errorHandler = require('./middleware/errorHandler');
 const {connectToDB} = require('./util/db');
